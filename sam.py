@@ -27,3 +27,4 @@ if uploaded_file:
     st.write(df.isnull().sum())
     st.write("total duplicated raws:",df.duplicated().sum())
     st.write(df[df.duplicated()])
+    st.write(df.dtypes)
